@@ -42,33 +42,4 @@ cmd
 nvcc --version
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 2 - Installer Git
+# 5 - Installer CuDNN

@@ -20,6 +20,8 @@ https://phoenixnap.com/kb/how-to-install-git-windows
 
 cmd
 nvidia-smi
+
+# 4 - Installer CUDA
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/406c34dc-3b12-449e-a8cf-3f7c2a154aab) 
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/822a1e2b-eb8f-42bc-aa7e-b934bc274c52)
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/d328dc38-be3c-4630-beba-b59743c61c6e)
@@ -46,7 +48,6 @@ nvcc --version
 
 
 
-# 4 - Installer GPU Driver
 
 
 

@@ -47,20 +47,10 @@ python detection.py --weights yolov7.onnx --source 0
 ```
 # Démo YOLO 8
 ```ssh
-pip install -r requirements.txt
-python detection.py --model yolov8n.onnx --source 0
-```
-
-![image](https://github.com/hrhouma/YOLO-2/assets/10111526/2c491b4b-a873-41ed-bcca-77540d88e79c)
-
-![image](https://github.com/hrhouma/YOLO-2/assets/10111526/56673221-2aaf-4c0d-a004-dd967e1cda32)
-
-![image](https://github.com/hrhouma/YOLO-2/assets/10111526/526e7ad5-7c31-447d-a0b1-a300fad0ccf9)
-
-```ssh
-1. `python detection.py --model yolov8n.onnx --source data\images\horses.jpg`
-2. `python detection.py --model yolov8n.onnx --source data\videos\road.mp4`
-3. `python detection.py --model yolov8n.onnx --source 0`
+1. pip install -r requirements.txt
+2. `python detection.py --model yolov8n.onnx --source data\images\horses.jpg`
+3. `python detection.py --model yolov8n.onnx --source data\videos\road.mp4`
+4. `python detection.py --model yolov8n.onnx --source 0`
 ```
 
 

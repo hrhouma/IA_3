@@ -47,6 +47,4 @@ YOLOv9 se distingue par des améliorations significatives dans la détection d'o
 Avec ses techniques et conceptions uniques telles que PGI et GELAN, YOLOv9 maintient l'héritage d'efficacité et de précision. Il établit de nouveaux standards dans le domaine de la détection d'objets, tout en utilisant moins de paramètres et en réduisant l'effort de calcul.
 
 Pour de plus amples informations et pour des comparaisons détaillées, veuillez vous référer aux articles officiels et aux documentations techniques de chaque modèle.
-```
 
-Ce fichier `readme.md` est conçu pour être ajouté au répertoire GitHub d'un projet ou d'une démonstration qui implémente ou compare ces modèles d'apprentissage profond pour la détection d'objets. Il fournit une base pour une documentation plus approfondie et des explications techniques détaillées.

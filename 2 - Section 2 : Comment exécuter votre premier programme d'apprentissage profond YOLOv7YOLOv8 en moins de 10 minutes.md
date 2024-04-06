@@ -10,6 +10,14 @@ Suivez ces étapes pour exécuter la démonstration YOLO 7 :
 6. Pour lister les fichiers du dossier, utilisez la commande `dir`.
 7. Ouvrez le projet dans Visual Studio Code en écrivant la commande `code .` (notez l'espace avant le point).
 8. Ajoutez les dépendances nécessaires dans `requirements.txt`.
+```plaintext
+opencv-python
+onnxruntime
+pandas
+seaborn
+plotly
+``` 
+
 9. Ouvrez le terminal.
 10. Installez les dépendances avec la commande `pip install -r requirements.txt`.
 11. Pour lancer la détection, exécutez `python detection.py --weights yolov7.onnx --source data\videos\road.mp4`.

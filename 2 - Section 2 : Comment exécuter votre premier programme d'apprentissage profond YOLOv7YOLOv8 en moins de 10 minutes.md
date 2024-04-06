@@ -27,15 +27,17 @@ Suivez ces étapes pour exécuter la démonstration YOLO 8 :
 3. Pour lancer la détection avec la webcam, exécutez `python detection.py --model yolov8n.onnx --source 0`.
 
 # Commandes 
-```plaintext
+
 # Démo YOLO 7
+```ssh
 pip install -r requirements.txt
 python detection.py --weights yolov7.onnx --source data\videos\road.mp4
 python detection.py --weights yolov7-tiny.onnx --source data\videos\road.mp4
 python detection.py --weights yolov7.onnx --source data\images\horses.jpg
 python detection.py --weights yolov7.onnx --source 0
-
+```
 # Démo YOLO 8
+```ssh
 pip install -r requirements.txt
 python detection.py --model yolov8n.onnx --source 0
 ```

@@ -1,4 +1,4 @@
-# YOLO-2
+# YOLO-7-8-9
 
 1. Section 1 : Introduction
 2. Section 2 : Comment exécuter votre premier programme d'apprentissage profond YOLOv7/YOLOv8 en moins de 10 minutes

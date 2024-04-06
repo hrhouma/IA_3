@@ -57,5 +57,11 @@ python detection.py --model yolov8n.onnx --source 0
 
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/526e7ad5-7c31-447d-a0b1-a300fad0ccf9)
 
+```ssh
+1. `python detection.py --model yolov8n.onnx --source data\images\horses.jpg`
+2. `python detection.py --model yolov8n.onnx --source data\videos\road.mp4`
+3. `python detection.py --model yolov8n.onnx --source 0`
+```
+
 
 

@@ -45,6 +45,26 @@ nvcc --version
 # 5 - Introduction au librairies PYTHON
 
 
+## Une librairie, c'est quoi ?
+
+Imaginez une librairie comme une boîte à outils. Lorsque vous commencez un projet de bricolage, vous n'avez pas besoin de fabriquer chaque outil à partir de zéro, comme un marteau ou un tournevis. À la place, vous allez à la librairie et vous empruntez les outils dont vous avez besoin.
+
+Dans le monde de la programmation, une librairie est semblable à cette boîte à outils. C’est une collection d'outils préfabriqués, ou de "codes", que les programmeurs peuvent utiliser pour réaliser des tâches spécifiques sans avoir à réinventer la roue. Par exemple, si vous programmez un site web et que vous avez besoin de gérer les données saisies par les utilisateurs, au lieu d'écrire le code vous-même, vous pouvez utiliser une librairie qui contient déjà les fonctions nécessaires pour faire cela.
+
+En utilisant des librairies, vous gagnez du temps, vous réduisez les erreurs potentielles, et vous bénéficiez souvent de l'expertise et des connaissances de la communauté des développeurs qui les ont créées et améliorées au fil du temps.
+
+## Une définition d'une librairie plus technique ?
+
+Une librairie en programmation est une collection de modules ou de fonctions prédéfinies qui fournissent des solutions à des problèmes courants ou permettent d'effectuer des tâches spécifiques. Chaque module ou fonction dans une librairie peut être considéré comme un bloc de construction que les développeurs peuvent utiliser pour construire leurs propres programmes plus efficacement, sans avoir à réécrire le code commun à partir de zéro.
+
+Techniquement, les librairies diffèrent des frameworks. Dans le cas d'une librairie, le développeur est aux commandes du flux d'exécution du programme, appelant spécifiquement les ressources dont il a besoin quand il en a besoin. Avec un framework, en revanche, c'est le framework lui-même qui prend le contrôle, appelant le code du développeur à des points prédéfinis.
+
+Les librairies peuvent être implémentées dans presque tous les langages de programmation et sont généralement distribuées sous forme de fichiers compilés que les développeurs peuvent lier à leurs programmes lors de la compilation ou de l'exécution. Elles peuvent couvrir un large éventail de fonctionnalités, des opérations mathématiques de base à la gestion complexe des données en passant par les interactions réseau et la visualisation graphique.
+
+En somme, utiliser des librairies permet aux développeurs de se concentrer sur les aspects uniques et innovants de leurs projets en tirant parti des solutions standardisées pour des problèmes courants, améliorant ainsi l'efficacité du développement et la qualité du code produit.
+
+
+## Librairies Python les plus utilisés en 2023 ?
 
 **Requêtes HTTP et Développement Web :**
 - Requests: Pour les requêtes HTTP simplifiées.

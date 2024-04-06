@@ -42,4 +42,4 @@ cmd
 nvcc --version
 ```
 
-# 5 - Installer CuDNN
+# 5 - Introduction au librairies PYTHON

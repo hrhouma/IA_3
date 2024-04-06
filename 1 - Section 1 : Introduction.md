@@ -16,28 +16,6 @@ Voici un résumé des points clés concernant YOLO, spécialement destiné aux d
 
 En somme, YOLO est un outil puissant et versatile pour la détection d'objets, utilisé aussi bien dans la recherche académique que dans des applications industrielles concrètes. Chaque mise à jour de l'algorithme vise à le rendre plus performant, plus rapide et plus adapté aux défis croissants de la vision par ordinateur.
 
-YOLO, comme système de détection d'objets en temps réel, possède une série de fonctionnalités qui ont évolué au fil de ses différentes versions. Voici un résumé des fonctionnalités typiques que vous pourriez trouver dans les algorithmes de la famille YOLO, y compris mais non limité aux versions originales :
-
-1. **Détection d'objets** : C’est la fonctionnalité principale de YOLO. Il identifie les objets dans une image et prédit leurs emplacements avec des boîtes englobantes. YOLO est formé pour reconnaître une large gamme de classes d'objets, ce qui le rend utile dans de nombreux contextes différents.
-
-2. **Segmentation d'objets** : Certaines versions de YOLO peuvent effectuer une segmentation d'instance, où l'algorithme va au-delà de la simple détection de l'objet pour déterminer la forme précise de l'objet en segmentant chaque pixel de l'image qui lui appartient. Cela peut être particulièrement utile pour des applications nécessitant une distinction précise entre les objets et leur contexte.
-
-3. **Tracking d'objets** : Bien que le tracking ne soit pas une fonctionnalité intrinsèque des premières versions de YOLO, des développements récents et des implémentations personnalisées intègrent le suivi des objets détectés à travers les frames d'une vidéo. Cela permet de suivre le mouvement et le comportement des objets au fil du temps.
-
-4. **Classification d'objets** : En plus de localiser les objets dans une image, YOLO attribue également à chaque boîte englobante une classe spécifique, en fonction de la catégorie d'objet que l'algorithme estime être présente.
-
-5. **Prédiction de la pose** : Certaines variantes de YOLO peuvent estimer la pose des objets détectés, c'est-à-dire leur orientation et leur position dans l'espace, ce qui est utile pour les applications de réalité augmentée et les systèmes de surveillance avancés.
-
-6. **Détection en temps réel** : L'une des caractéristiques distinctives de YOLO est sa capacité à effectuer une détection en temps réel, ce qui le rend adapté aux applications nécessitant une réponse rapide, comme les véhicules autonomes.
-
-7. **Traitement multiscale** : YOLO peut détecter des objets de différentes tailles grâce à son processus de traitement d'image multiscale. Cela permet de capturer à la fois des détails fins et des caractéristiques plus générales.
-
-8. **Robustesse aux variations d'échelle et d'illumination** : Au fil des versions, YOLO a été optimisé pour être plus robuste face aux variations d'échelle et aux changements d'illumination, améliorant ainsi sa performance dans des conditions non contrôlées.
-
-9. **Utilisation de techniques d'augmentation de données** : Pour améliorer la généralisation, YOLO est souvent formé en utilisant des techniques d'augmentation de données qui étendent la diversité des conditions d'entraînement et renforcent la capacité du modèle à bien fonctionner dans le monde réel.
-
-10. **Efficacité computationnelle** : YOLO est conçu pour être efficace, avec des versions comme YOLOv4 et YOLOv5 offrant un excellent équilibre entre précision et rapidité, les rendant applicables même sur du matériel informatique limité.
-
 # 2- Fonctionnalités de YOLO : 
 
 YOLO, comme système de détection d'objets en temps réel, possède une série de fonctionnalités qui ont évolué au fil de ses différentes versions. Voici un résumé des fonctionnalités typiques que vous pourriez trouver dans les algorithmes de la famille YOLO, y compris mais non limité aux versions originales :

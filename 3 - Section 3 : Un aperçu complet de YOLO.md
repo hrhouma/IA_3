@@ -34,8 +34,43 @@ La **segmentation**, le **tracking** et l'estimation de **pose** sont trois conc
 
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/450b74da-094a-422f-a07f-5396778cd715)
 
+# 2 - Concepts importants : Introduction aux tâches de la vision par ordinateur
 
-# 2 - Résumé 2: 
+## section 1 : Classification d'image
+**Objectif** : Comprendre le processus de catégorisation d'une image.
+- Définition : La classification d'images implique d'assigner une catégorie à une image en fonction de son contenu.
+- Entrée : Une image contenant un seul objet.
+- Sortie : La catégorie identifiée de l'objet et sa probabilité associée.
+
+## section 2 : Localisation
+**Objectif** : Apprendre à localiser un objet à l'intérieur d'une image.
+- Définition : La localisation consiste à trouver où un objet se trouve dans une image.
+- Processus : Elle implique la classification et l'identification de la position de l'objet avec une boîte englobante.
+
+## section 3 : Détection d'objets
+**Objectif** : Combiner la classification et la localisation pour identifier plusieurs objets.
+- Définition : La détection d'objets vise à localiser et classifier plusieurs objets à l'intérieur d'une image.
+- Entrée : Une image avec un ou plusieurs objets.
+- Sortie : La localisation des objets à l'aide de boîtes englobantes et la classification de chaque objet.
+
+## section 4 : Segmentation d'image
+**Objectif** : Distinguer entre la détection d'objets et la segmentation.
+- Définition : La segmentation d'image est une forme avancée de détection d'objets qui fournit des informations plus détaillées.
+- Différence : Contrairement à la détection d'objets qui fournit des boîtes englobantes, la segmentation offre la forme exacte de l'objet.
+- Types : 
+  - **Segmentation d'instance** : Marque les limites d'un objet et étiquette ses pixels.
+  - **Segmentation sémantique** : Colore chaque pixel dans l'image, y compris l'arrière-plan, selon la classification.
+
+## section 5 : YOLO (You Only Look Once)
+**Objectif** : Explorer l'algorithme YOLO pour la détection et la segmentation d'objets.
+- Bases de YOLO : Conçu pour la détection d'objets, offrant des résultats rapides et efficaces.
+- Capacités de YOLO v7 : S'étend à la détection d'objets et à la segmentation d'instance.
+- Avenir de YOLO v7 : Projets d'incorporer la segmentation sémantique.
+
+## Conclusion
+Dans cette partie, nous avons parcouru les bases des tâches de vision par ordinateur, en soulignant l'importance des différentes techniques dans le domaine. Nous avons conclu avec des informations sur l'algorithme YOLO et ses capacités en évolution.
+
+# 3 - Résumé 3: 
 
 - **Détection d'objets** : Reconnaît et localise des éléments spécifiques au sein d'une image ou vidéo.
 - **Segmentation** : Divise une image en régions distinctes pour en simplifier l'analyse, avec des types variés comme la segmentation sémantique et d'instance.

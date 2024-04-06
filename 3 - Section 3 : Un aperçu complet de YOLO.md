@@ -10,10 +10,10 @@ La **segmentation**, le **tracking** et l'estimation de **pose** sont trois conc
 
 # 2 - Résumé 1 : 
 
-**Segmentation**: Identifie et isole des parties d'une image pour en faciliter l'analyse.
-**Tracking**: Suit des objets ou des personnes au fil du temps dans une séquence vidéo.
-**Estimation de pose**: Détermine la configuration spatiale d'objets ou de personnes dans une image.
-**Détection d'objets**: Reconnaît et localise des objets dans une image ou une vidéo.
+- **Segmentation**: Identifie et isole des parties d'une image pour en faciliter l'analyse.
+- **Tracking**: Suit des objets ou des personnes au fil du temps dans une séquence vidéo.
+- **Estimation de pose**: Détermine la configuration spatiale d'objets ou de personnes dans une image.
+- **Détection d'objets**: Reconnaît et localise des objets dans une image ou une vidéo.
 
 
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/2bdde992-7f39-4bf6-b2b0-04147e511715)
@@ -37,15 +37,8 @@ La **segmentation**, le **tracking** et l'estimation de **pose** sont trois conc
 
 # 2 - Résumé 2: 
 
-**Détection d'objets** : Reconnaît et localise des éléments spécifiques au sein d'une image ou vidéo.
-
-**Segmentation** : Divise une image en régions distinctes pour en simplifier l'analyse, avec des types variés comme la segmentation sémantique et d'instance.
-
-**Tracking** : Suit des objets ou des personnes au fil du temps dans une vidéo, utile pour la surveillance et l'analyse de mouvements.
-
-**Estimation de pose** : Identifie la position et l'orientation d'objets ou de personnes, utilisée pour les interactions homme-machine et l'analyse de mouvements.
-
-
-
-
+- **Détection d'objets** : Reconnaît et localise des éléments spécifiques au sein d'une image ou vidéo.
+- **Segmentation** : Divise une image en régions distinctes pour en simplifier l'analyse, avec des types variés comme la segmentation sémantique et d'instance.
+- **Tracking** : Suit des objets ou des personnes au fil du temps dans une vidéo, utile pour la surveillance et l'analyse de mouvements.
+- **Estimation de pose** : Identifie la position et l'orientation d'objets ou de personnes, utilisée pour les interactions homme-machine et l'analyse de mouvements.
 

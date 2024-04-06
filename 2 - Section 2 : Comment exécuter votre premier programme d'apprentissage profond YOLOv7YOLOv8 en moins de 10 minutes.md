@@ -50,3 +50,12 @@ python detection.py --weights yolov7.onnx --source 0
 pip install -r requirements.txt
 python detection.py --model yolov8n.onnx --source 0
 ```
+
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/2c491b4b-a873-41ed-bcca-77540d88e79c)
+
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/56673221-2aaf-4c0d-a004-dd967e1cda32)
+
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/526e7ad5-7c31-447d-a0b1-a300fad0ccf9)
+
+
+

@@ -18,12 +18,16 @@ https://phoenixnap.com/kb/how-to-install-git-windows
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/2ecd3860-1369-40e4-9d2a-da5f6b0e5ec1)
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/6cb147ac-0b4d-4ec2-a212-20a01be97fcb)
 
+```ssh
 cmd
 nvidia-smi
+```
 
-# 4 - Installer CUDA
+
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/406c34dc-3b12-449e-a8cf-3f7c2a154aab) 
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/822a1e2b-eb8f-42bc-aa7e-b934bc274c52)
+
+# 4 - Installer CUDA
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/d328dc38-be3c-4630-beba-b59743c61c6e)
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/9e3e9796-cb28-4051-94ad-7e031224e8a6)
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/c93038bb-a3ef-48fe-a963-14d1cd74f988)
@@ -32,8 +36,11 @@ nvidia-smi
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/85172243-795c-4027-8ec7-f943c28a639d)
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/707de5ab-b696-417d-8872-42d1bf01d54e)
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/2f76a16d-26fe-4399-91c8-83768f4f92ec)
+
+```ssh
 cmd
 nvcc --version
+```
 
 
 

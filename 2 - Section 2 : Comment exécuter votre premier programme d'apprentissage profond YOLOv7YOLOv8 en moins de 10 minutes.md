@@ -2,7 +2,7 @@
 
 Suivez ces étapes pour exécuter la démonstration YOLO 7 :
 
-1. Téléchargez le fichier à partir de ce lien : [Télécharger YOLO 7](https://drive.google.com/drive/folders/1eG7w9ZT7subxZQ9hwcvk3b85dCdL_R6S?usp=sharing)
+1. Téléchargez le fichier à partir de ce lien : https://drive.google.com/drive/folders/1ABpMLxARb2Pz0jEXkEDV99KgiL1bAzSV?usp=sharing
 2. Dézippez le fichier téléchargé.
 3. Naviguez jusqu'au dossier extrait.
 4. Ouvrez le dossier `yolov7-python`.
@@ -20,11 +20,12 @@ plotly
 
 9. Ouvrez le terminal.
 10. Installez les dépendances avec la commande `pip install -r requirements.txt`.
-11. Pour lancer la détection, exécutez `python detection.py --weights yolov7.onnx --source data\videos\road.mp4`.
-12. Appuyez sur `Q` pour quitter.
-13. Exécutez `python detection.py --weights yolov7-tiny.onnx --source data\videos\road.mp4`.
-14. Exécutez `python detection.py --weights yolov7.onnx --source data\images\horses.jpg`.
-15. Pour utiliser la webcam comme source, exécutez `python detection.py --weights yolov7.onnx --source 0`.
+11. Ajouter le modèle pré entrainé yolov7.onnx dans le même dossier.
+12. Pour lancer la détection, exécutez `python detection.py --weights yolov7.onnx --source data\videos\road.mp4`.
+13. Appuyez sur `Q` pour quitter.
+14. Exécutez `python detection.py --weights yolov7-tiny.onnx --source data\videos\road.mp4`.
+15. Exécutez `python detection.py --weights yolov7.onnx --source data\images\horses.jpg`.
+16. Pour utiliser la webcam comme source, exécutez `python detection.py --weights yolov7.onnx --source 0`.
 
 # Démo YOLO 8
 

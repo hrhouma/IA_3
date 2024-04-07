@@ -13,6 +13,7 @@ Ouvrir anaconda prompt
 - cd yolov7-cpu
 - pip install -r requirements.txt
 - python detect.py --weights yolov7.pt --source inference\images\bus.jpg
+- C:\Users\hrehouma\AppData\Local\anaconda3\envs\yolov7-cpu-env\Lib\site-packages\cv2
 
 
 

@@ -12,13 +12,13 @@ Ouvrir anaconda prompt
 - ren yolov7 yolov7-cpu
 - cd yolov7-cpu
 - pip install -r requirements.txt
+- python detect.py --weights yolov7.pt --source inference\images\bus.jpg
 
 
 
 
 
-
-
+# Suppression (optionnel)
 - Pour supprimer : rmdir /s /q yolov7
 - rmdir /s /q chemin_du_répertoire ou rd /s /q chemin_du_répertoire
 

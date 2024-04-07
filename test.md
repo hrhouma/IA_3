@@ -1,9 +1,9 @@
 # Étape 1 : Création des 4 environnements au niveau de Anaconda Navigator:
 - Ouvrir anaconda navigator et créez les 4 environnements suivants :
-  1. yolov7-cpu-env
-  2. yolov7-gpu-env
-  3. yolov8-cpu-env
-  4. yolov8-gpu-env
+1. yolov7-cpu-env
+2. yolov7-gpu-env
+3. yolov8-cpu-env
+4. yolov8-gpu-env
 
 # Étape 2 : 
 Ouvrir anaconda prompt

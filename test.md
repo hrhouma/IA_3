@@ -12,7 +12,9 @@ Ouvrir anaconda prompt
 - ren yolov7 yolov7-cpu
 - cd yolov7-cpu
 - pip install -r requirements.txt
+- COPIER LE FICHIER YOLOV7.pt à partir de (https://github.com/pHidayatullah/yolov7?tab=readme-ov-file) dans le même dossier du projet (C:\yolov7-cpu) et excéutez la commande suivante :
 - python detect.py --weights yolov7.pt --source inference\images\bus.jpg
+- python detect.py --weights yolov7.pt --source 0
 - C:\Users\hrehouma\AppData\Local\anaconda3\envs\yolov7-cpu-env\Lib\site-packages\cv2
 
 

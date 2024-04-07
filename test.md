@@ -11,6 +11,14 @@ Ouvrir anaconda prompt
 - git clone https://github.com/pHidayatullah/yolov7.git
 - ren yolov7 yolov7-cpu
 - cd yolov7-cpu
+- pip install -r requirements.txt
+
+
+
+
+
+
+
 - Pour supprimer : rmdir /s /q yolov7
 - rmdir /s /q chemin_du_répertoire ou rd /s /q chemin_du_répertoire
 

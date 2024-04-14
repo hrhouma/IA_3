@@ -100,32 +100,72 @@ conda remove --name haythem-env --all
 
 # 2 - Activation de l'Environnement Virtuel pour le Projet dans WINDOWS
 
-1. Ouvrez PowerShell.
-2. Naviguez vers le répertoire du projet où se trouve l'environnement virtuel. Par exemple :
+Pour créer un environnement virtuel dans Visual Studio Code (VSCode) pour un projet Python sur Windows et activer cet environnement, suivez les étapes détaillées ci-dessous. Ce tutoriel vous guidera depuis la préparation initiale jusqu'à l'activation de l'environnement virtuel.
+
+## Prérequis
+1. Assurez-vous d'avoir installé Python sur votre ordinateur. Vous pouvez le télécharger depuis le [site officiel de Python](https://www.python.org/downloads/).
+2. Installez Visual Studio Code si ce n'est pas déjà fait. Téléchargez-le depuis le [site officiel de Visual Studio Code](https://code.visualstudio.com/).
+
+## Étape 1: Configurer VSCode pour l'utilisation de Python
+1. Ouvrez VSCode.
+2. Installez l'extension Python pour Visual Studio Code depuis le Marketplace. Allez dans l'onglet Extensions (icône des blocs sur la barre latérale), cherchez "Python", puis cliquez sur "Installer".
+
+## Étape 2: Création et Activation d'un Environnement Virtuel
+### Création de l'environnement virtuel
+1. Ouvrez un terminal dans VSCode en cliquant sur `Terminal > Nouveau terminal` dans la barre de menu.
+2. Naviguez jusqu'au dossier où vous souhaitez créer le projet. Par exemple:
    ```powershell
-   cd chemin\vers\votre\projet
+   cd C:\Users\Haythem\Desktop\fastapi\fastapi-the-complete-course\
    ```
-3. Exécutez le script d'activation :
+3. Créez un environnement virtuel en exécutant:
    ```powershell
-   .\venv\Scripts\Activate.ps1
+   python -m venv .monenv
    ```
-   Assurez-vous que votre environnement virtuel s'appelle `venv`. Sinon, remplacez `venv` par le nom correct de votre répertoire d'environnement virtuel.
 
+### Activation de l'environnement virtuel
+4. Changez le répertoire pour entrer dans le dossier de l'environnement virtuel, puis dans le dossier `Scripts` :
+   ```powershell
+   cd .monenv\Scripts\
+   ```
+5. Pour éviter les problèmes de politique d'exécution des scripts, ajustez la politique d'exécution:
+   ```powershell
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+6. Activez l'environnement virtuel:
+   ```powershell
+   .\Activate.ps1
+   ```
+   Vous devriez voir le nom de votre environnement virtuel (`(.monenv)`) devant le prompt dans le terminal, indiquant que l'environnement est activé.
 
+### Exécution d'un script Python
+7. Retournez au répertoire principal de votre projet et exécutez votre script Python:
+   ```powershell
+   cd ..
+   python interface-tkinter.py
+   ```
 
-## Problèmes Communs
+### Désactivation de l'environnement virtuel
+8. Pour désactiver l'environnement virtuel, tapez:
+   ```powershell
+   deactivate
+   ```
 
-- **Politiques d'exécution PowerShell**: Si vous ne pouvez pas exécuter des scripts sur votre système, vous pourriez avoir besoin de changer les politiques d'exécution avec cette commande dans PowerShell (en tant qu'administrateur) :
-  ```powershell
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-  ```
-- **Erreur d'activation**: Assurez-vous que le chemin d'accès au script d'activation est correct et que vous utilisez le bon script pour votre terminal (PowerShell vs CMD).
+En suivant ces étapes, vous aurez correctement configuré et utilisé un environnement virtuel dans Visual Studio Code sur Windows, permettant un développement Python isolé et propre.
 
-Pour plus d'informations, veuillez consulter la documentation officielle de Python sur la gestion des environnements virtuels.
-
-
-Ce README est structuré pour aider les utilisateurs à naviguer facilement dans le processus d'activation de l'environnement virtuel, avec des sections claires et des commandes spécifiques pour différentes interfaces. Il inclut également des conseils pour résoudre les erreurs communes.
-
+## Résumé des commandes
+```powershell
+cd C:\Users\Haythem\Desktop\fastapi\fastapi-the-complete-course\
+python3 -m venv .monenv
+cd .\.monenv\
+cd .\Scripts\
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\Activate.ps1
+Exécutez le code en cliquant sur le bouton run en haut ou en exécutant python interface-tkinter.py
+deactivate
+```
 
 # Références utiles :
-https://stackoverflow.com/questions/53995171/anaconda-conda-error-argument-command-invalid-choice-when-trying-to-update-pa
+- https://stackoverflow.com/questions/53995171/anaconda-conda-error-argument-command-invalid-choice-when-trying-to-update-pa
+- https://code.visualstudio.com/docs/python/environments
+- https://www.geeksforgeeks.org/create-virtual-environment-using-venv-python/
+- https://medium.com/@dipan.saha/managing-git-repositories-with-vscode-setting-up-a-virtual-environment-62980b9e8106

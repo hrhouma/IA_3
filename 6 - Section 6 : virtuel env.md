@@ -23,8 +23,8 @@
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/f42f6253-14cc-47b4-a9c0-22ee806b8b28) 
 
 ### 4 - Lancez l'environnement (méthode 2 via la ligne de commande) : 
-4-1. Assurez vous d'avoir conda ajoutée dans vos variables d'environnements (localalisez anaconda3 d'abord, dans mon cas : C:\ProgramData\anaconda3)
-
+4-1. Assurez vous d'avoir conda ajoutée dans vos variables d'environnements (localisez anaconda3 d'abord, dans mon cas : C:\ProgramData\anaconda3)
+4-2. Excécutez les commandes suivantes : 
 ```powershell
 cd C:\Users\Haythem\Desktop\codesPython
 conda activate tkinter-env

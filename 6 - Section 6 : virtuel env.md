@@ -22,10 +22,10 @@
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/9743bde2-69ee-4af2-908f-bb65a3e0a1f4)
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/f42f6253-14cc-47b4-a9c0-22ee806b8b28) 
 
-### 4 - Lancez l'environnement (méthode 2 via la ligne de commande) : 
-4-1. Assurez vous d'avoir conda ajoutée dans vos variables d'environnements (localisez anaconda3 d'abord, dans mon cas : C:\ProgramData\anaconda3)
+## 4 - Lancez l'environnement (méthode 2 via la ligne de commande) : 
+## 4-1. Assurez vous d'avoir conda ajoutée dans vos variables d'environnements (localisez anaconda3 d'abord, dans mon cas : C:\ProgramData\anaconda3)
 
-4-2. Excécutez les commandes suivantes : 
+## 4-2. Excécutez les commandes suivantes : 
 ```powershell
 cd C:\Users\Haythem\Desktop\codesPython
 conda activate tkinter-env
@@ -34,7 +34,7 @@ deactivate ou conda deactivate
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/a15dd895-0350-46d0-8f36-84307af33217)
 
 
-4-3. Autres commandes : 
+## 4-3. Autres commandes : 
 
 -Cous commençons par la commande suivante : 
    ```bash
@@ -98,9 +98,6 @@ conda remove --name haythem-env --all
 
 
 
-
-
-
 # 2 - Activation de l'Environnement Virtuel pour le Projet dans WINDOWS
 
 1. Ouvrez PowerShell.
@@ -114,37 +111,7 @@ conda remove --name haythem-env --all
    ```
    Assurez-vous que votre environnement virtuel s'appelle `venv`. Sinon, remplacez `venv` par le nom correct de votre répertoire d'environnement virtuel.
 
-### CMD
 
-1. Ouvrez Command Prompt (CMD).
-2. Naviguez vers le répertoire du projet où se trouve l'environnement virtuel. Par exemple :
-   ```cmd
-   cd chemin\vers\votre\projet
-   ```
-3. Exécutez le script d'activation :
-   ```cmd
-   venv\Scripts\activate.bat
-   ```
-
-
-
-# 1 - Activation de l'Environnement Virtuel pour le Projet dans Vscode
-
-## Activation dans Visual Studio Code
-
-1. Ouvrez Visual Studio Code.
-2. Ouvrez le dossier contenant votre projet via `File > Open Folder`.
-3. Ouvrez un nouveau terminal (Terminal -> New Terminal).
-4. Dans le terminal, activez l'environnement virtuel en exécutant :
-   ```powershell
-   .\venv\Scripts\Activate.ps1
-   ```
-   Si vous utilisez CMD dans le terminal de VSCode, utilisez :
-   ```cmd
-   venv\Scripts\activate.bat
-   ```
-
-Une fois l'environnement virtuel activé, vous verrez le préfixe `(venv)` dans votre terminal, indiquant que toutes les commandes Python et pip s'exécuteront dans l'environnement virtuel.
 
 ## Problèmes Communs
 

@@ -75,16 +75,25 @@ cd C:\Users\Haythem\Desktop\codesPython
 
 Après vous être déplacé dans le dossier, vous pouvez exécuter les commandes Conda comme décrit ci-dessus.
 
-
+```powershell
 conda create -n haythem-env
+```
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/ecc998fc-e9a2-4426-a44e-3cbff22a58e5)
+```powershell
 conda env list
+```
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/ca4d83c8-bbdc-4808-abbd-3e00b4eb280b)
+```powershell
 conda activate tkinter-env
+```
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/f26cef9f-8e00-4819-8445-94ae3bc149b8)
+```powershell
  conda deactivate
+```
  ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/f33eeb76-2799-4e68-a4c1-643a7310972b)
+ ```powershell
 conda remove --name haythem-env --all
+```
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/253eede6-fcaf-41c8-98a3-29b28d6da8d7)
 
 

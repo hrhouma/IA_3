@@ -28,7 +28,7 @@
 ```powershell
 cd C:\Users\Haythem\Desktop\codesPython
 conda activate tkinter-env
-deactivate 
+deactivate ou conda deactivate
 ```
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/a15dd895-0350-46d0-8f36-84307af33217)
 

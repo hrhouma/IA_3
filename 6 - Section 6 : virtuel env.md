@@ -36,6 +36,10 @@ deactivate ou conda deactivate
 
 4-3. Autres commandes : 
 
+-Cous commençons par la commande suivante : 
+   ```bash
+   conda init
+   ```
 - Par exemple, pour supprimer un environnement Conda, vous devez utiliser la commande `conda remove --name nom_env --all`. 
 - Voici comment vous pouvez procéder étape par étape, en incluant votre demande initiale :
 
@@ -72,12 +76,23 @@ cd C:\Users\Haythem\Desktop\codesPython
 Après vous être déplacé dans le dossier, vous pouvez exécuter les commandes Conda comme décrit ci-dessus.
 
 
+conda create -n haythem-env
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/ecc998fc-e9a2-4426-a44e-3cbff22a58e5)
+conda env list
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/ca4d83c8-bbdc-4808-abbd-3e00b4eb280b)
+conda activate tkinter-env
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/f26cef9f-8e00-4819-8445-94ae3bc149b8)
+ conda deactivate
+ ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/f33eeb76-2799-4e68-a4c1-643a7310972b)
+conda remove --name haythem-env --all
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/253eede6-fcaf-41c8-98a3-29b28d6da8d7)
 
 
 
 
 
-### PowerShell
+
+# 2 - Activation de l'Environnement Virtuel pour le Projet dans WINDOWS
 
 1. Ouvrez PowerShell.
 2. Naviguez vers le répertoire du projet où se trouve l'environnement virtuel. Par exemple :
@@ -131,6 +146,10 @@ Une fois l'environnement virtuel activé, vous verrez le préfixe `(venv)` dans 
 - **Erreur d'activation**: Assurez-vous que le chemin d'accès au script d'activation est correct et que vous utilisez le bon script pour votre terminal (PowerShell vs CMD).
 
 Pour plus d'informations, veuillez consulter la documentation officielle de Python sur la gestion des environnements virtuels.
-```
+
 
 Ce README est structuré pour aider les utilisateurs à naviguer facilement dans le processus d'activation de l'environnement virtuel, avec des sections claires et des commandes spécifiques pour différentes interfaces. Il inclut également des conseils pour résoudre les erreurs communes.
+
+
+# Références utiles :
+https://stackoverflow.com/questions/53995171/anaconda-conda-error-argument-command-invalid-choice-when-trying-to-update-pa

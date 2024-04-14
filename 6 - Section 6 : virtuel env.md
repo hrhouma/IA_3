@@ -36,10 +36,7 @@ deactivate ou conda deactivate
 
 ## 4-3. Autres commandes : 
 
--Cous commençons par la commande suivante : 
-   ```bash
-   conda init
-   ```
+
 - Par exemple, pour supprimer un environnement Conda, vous devez utiliser la commande `conda remove --name nom_env --all`. 
 - Voici comment vous pouvez procéder étape par étape, en incluant votre demande initiale :
 
@@ -67,8 +64,13 @@ deactivate ou conda deactivate
    ```bash
    conda remove --name test-env --all
    ```
+6. **Autre commande utile pour initier un environnement**.
+   ```bash
+   conda init
+   ```
 
-Assurez-vous d'être dans le bon dossier ou de spécifier le chemin complet si nécessaire. Si vous travaillez souvent avec des scripts ou des commandes dans des dossiers spécifiques, vous pouvez vous déplacer dans le dossier approprié en utilisant `cd` (Change Directory) dans votre terminal ou invite de commande. Dans votre cas pour aller sur le bureau dans le dossier codesPython :
+- Assurez-vous d'être dans le bon dossier ou de spécifier le chemin complet si nécessaire. 
+- Si vous travaillez souvent avec des scripts ou des commandes dans des dossiers spécifiques, vous pouvez vous déplacer dans le dossier approprié en utilisant `cd` (Change Directory) dans votre terminal ou invite de commande. Dans notre cas pour aller sur le bureau dans le dossier codesPython :
 ```bash
 cd C:\Users\Haythem\Desktop\codesPython
 ```
@@ -119,36 +121,53 @@ Pour créer un environnement virtuel dans Visual Studio Code (VSCode) pour un pr
    ```
 3. Créez un environnement virtuel en exécutant:
    ```powershell
-   python -m venv .monenv
+   python3 -m venv .monenv
    ```
+   ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/2ca51975-248c-4a4f-99c3-0bde024f5408)
+
 
 ### Activation de l'environnement virtuel
 4. Changez le répertoire pour entrer dans le dossier de l'environnement virtuel, puis dans le dossier `Scripts` :
    ```powershell
    cd .monenv\Scripts\
    ```
-5. Pour éviter les problèmes de politique d'exécution des scripts, ajustez la politique d'exécution:
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/4db2c5b5-9784-4afe-8c9f-8eddd86e0a2e)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/ae9e6576-31c0-454f-b3ea-9a3cf00e836b)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/da664853-26d3-4669-8791-947c1da64f14)
+
+
+6. Pour éviter les problèmes de politique d'exécution des scripts, ajustez la politique d'exécution:
    ```powershell
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
-6. Activez l'environnement virtuel:
+   ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/74d03bfa-d010-4bb4-82d8-24847fabf3e9)
+
+7. Activez l'environnement virtuel:
    ```powershell
    .\Activate.ps1
    ```
    Vous devriez voir le nom de votre environnement virtuel (`(.monenv)`) devant le prompt dans le terminal, indiquant que l'environnement est activé.
 
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/ad8e9249-6ebe-4924-b5ed-b96a1bc32221)
+
 ### Exécution d'un script Python
-7. Retournez au répertoire principal de votre projet et exécutez votre script Python:
+7. **Retournez au répertoire principal** de votre projet et exécutez votre script Python:
    ```powershell
    cd ..
    python interface-tkinter.py
    ```
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/ca62e85e-16ba-482a-927a-264d86883df5)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/7e339d16-2e0d-4a35-83b2-fc619832ac5c)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/68bc1f11-b2c7-4197-aa1e-511f8d938ddf)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/0b6b7bd2-17d1-458c-b93e-b5f3d1cee859)
+
 
 ### Désactivation de l'environnement virtuel
 8. Pour désactiver l'environnement virtuel, tapez:
    ```powershell
    deactivate
    ```
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/889af472-c38b-4377-89fa-96c5a0badbf4)
 
 En suivant ces étapes, vous aurez correctement configuré et utilisé un environnement virtuel dans Visual Studio Code sur Windows, permettant un développement Python isolé et propre.
 

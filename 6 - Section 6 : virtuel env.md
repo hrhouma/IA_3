@@ -24,6 +24,7 @@
 
 ### 4 - Lancez l'environnement (méthode 2 via la ligne de commande) : 
 4-1. Assurez vous d'avoir conda ajoutée dans vos variables d'environnements (localisez anaconda3 d'abord, dans mon cas : C:\ProgramData\anaconda3)
+
 4-2. Excécutez les commandes suivantes : 
 ```powershell
 cd C:\Users\Haythem\Desktop\codesPython
@@ -32,6 +33,43 @@ deactivate ou conda deactivate
 ```
 ![image](https://github.com/hrhouma/YOLO-2/assets/10111526/a15dd895-0350-46d0-8f36-84307af33217)
 
+
+4-3. Autres commandes : 
+
+- Par exemple, pour supprimer un environnement Conda, vous devez utiliser la commande `conda remove --name nom_env --all`. 
+- Voici comment vous pouvez procéder étape par étape, en incluant votre demande initiale :
+
+1. **Créer un environnement Conda** (dans votre cas, vous avez mentionné la création d'un environnement appelé `test-env`) :
+   ```bash
+   conda create -n test-env
+   ```
+
+2. **Lister tous les environnements Conda** pour vérifier que votre environnement a bien été créé :
+   ```bash
+   conda env list
+   ```
+
+3. **Activer un environnement Conda** spécifique (dans votre cas `tkinter-env`), pour travailler avec :
+   ```bash
+   conda activate tkinter-env
+   ```
+
+4. **Désactiver l'environnement Conda actuellement actif** :
+   ```bash
+   conda deactivate
+   ```
+
+5. **Supprimer un environnement Conda**. Si vous souhaitez supprimer l'environnement `test-env` que vous avez créé précédemment, utilisez :
+   ```bash
+   conda remove --name test-env --all
+   ```
+
+Assurez-vous d'être dans le bon dossier ou de spécifier le chemin complet si nécessaire. Si vous travaillez souvent avec des scripts ou des commandes dans des dossiers spécifiques, vous pouvez vous déplacer dans le dossier approprié en utilisant `cd` (Change Directory) dans votre terminal ou invite de commande. Dans votre cas pour aller sur le bureau dans le dossier codesPython :
+```bash
+cd C:\Users\Haythem\Desktop\codesPython
+```
+
+Après vous être déplacé dans le dossier, vous pouvez exécuter les commandes Conda comme décrit ci-dessus.
 
 
 

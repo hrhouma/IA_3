@@ -24,6 +24,10 @@
 
 ## 4 - Lancez l'environnement (méthode 2 via la ligne de commande) : 
 ## 4-1. Assurez vous d'avoir conda ajoutée dans vos variables d'environnements (localisez anaconda3 d'abord, dans mon cas : C:\ProgramData\anaconda3)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/480af092-c1c7-4bad-9d9e-f61e46b8f133)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/0751f0f3-c5d1-4e12-85b7-ee37d070c031)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/015cd000-c45c-46de-916d-8606a2d61bdc)
+![image](https://github.com/hrhouma/YOLO-2/assets/10111526/3ea82f71-9da4-46b7-9553-2d141b892705)
 
 ## 4-2. Excécutez les commandes suivantes : 
 ```powershell

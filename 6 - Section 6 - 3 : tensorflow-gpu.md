@@ -80,8 +80,3 @@ Pour vérifier si TensorFlow a été correctement installé et si le GPU est uti
 ## Support et documentation
 
 Pour toute question ou problème lors de l'installation, vous pouvez consulter la documentation officielle de TensorFlow ou le site de NVIDIA pour plus d'informations sur l'utilisation des GPUs.
-
-```
-
-Ce document a pour objectif de vous fournir une guidance étape par étape, du setup de l'environnement Anaconda à des tests pour confirmer que TensorFlow fonctionne correctement avec le GPU.
-
